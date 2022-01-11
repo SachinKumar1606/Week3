@@ -30,5 +30,6 @@ public class Main
     {
         C c = new C();
         System.out.println("hello");
+
     }
 }
