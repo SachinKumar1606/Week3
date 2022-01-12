@@ -20,6 +20,11 @@ class NestedTry {
                 // performing division by zero
                 int x = a[2] / 0;
             }
+            try{
+                String a1=null;
+                int len = a1.length();
+
+            }
             catch (ArithmeticException e2) {
                 System.out.println("division by zero is not possible");
             }
